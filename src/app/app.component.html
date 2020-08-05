@@ -1,0 +1,4 @@
+<button (click)="generatePromise()">generate</button>
+<app-child *ngFor="let item of items; index as id"
+[id]="id + 1"
+></app-child>
